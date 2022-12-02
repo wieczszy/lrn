@@ -96,7 +96,7 @@ Instances of classes are compared by reference.
 ```scala
 class MyClass(name: String):
     def hello(): Unit =
-        println('Hello, ' + name)
+        println("Hello, " + name)
 
 val foo = MyClass("Joe)
 foo.hello() // "Hello, Joe"
@@ -166,5 +166,5 @@ JVM requires a main method named `main` so the entrypoint for a Scala program is
 In Scala 3 the main method is generated from a method annotated with `@main`.
 ```scala
 @main def main() =
-    println('foo')
+    println("foo")
 ```
